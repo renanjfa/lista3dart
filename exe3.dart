@@ -4,8 +4,8 @@ void inserirLista(var l, String item) {
   l.add(item);
 }
 
-void salvarArquivo(File arq, String l) {
-  arq.writeAsStringSync(l);
+void salvarArquivo(var arq, String l) {
+  arq.writeln(l);
 }
 
 
@@ -23,7 +23,7 @@ void main() {
   var sink = File('minhas_compras.txt').openWrite();
 
   for (var c in compras) {
-    sink.writeln(c);
+    salvarArquivo(sink, c);
   }
 
   sink.close(); 
