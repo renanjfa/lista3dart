@@ -10,7 +10,7 @@
             "request": "launch",
             "type": "dart",
             "console": "terminal",
-            "program": "exe2.dart"
+            "program": "exe3.dart"
         }
     ]
 }
