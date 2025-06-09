@@ -8,7 +8,6 @@ void salvarArquivo(var arq, String l) {
   arq.writeln(l);
 }
 
-
 void main() {
   var compras = [];
   String item;
